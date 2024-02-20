@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def connect_to_mongodb():
    try:
-     client = MongoClient("mongodb+srv://moizahsan07:" + urllib.parse.quote("XYIjYaim5k5zaCpH") + "@urlminifier.cqmynvl.mongodb.net/?retryWrites=true&w=majority")
+     #client = ''
      print("Connected To MongoDB client successfully")
 
      return client
